@@ -2,7 +2,7 @@
 
 ## 1. Identificação
 
-* **Identidade Visual:** [Inserir link para a identidade visual]
+* **Identidade Visual:** \\TCC_INFO4_REGRESSIVA\Conectar Logo.png
 * **Redes Sociais:** https://chat.whatsapp.com/J1cMsovMOAN3G7mV3ULvx6
 * **Equipe:**
   * Luis Fernando - Desenvolvedor Sistema back-end
