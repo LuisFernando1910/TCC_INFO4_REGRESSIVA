@@ -23,12 +23,15 @@ Atualmente, o serviço de múltiplos acessos na área da informática se mostra 
     
 ## Justificativa
 Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usuários e que seja notável que o processo atual seja funcional e em execução, não é de conhecimento desse projeto compreender os motivos pelos quais a primeira proposta feita para resolver o problema da aplicação de concomitância foi estruturada desta maneira manual, porém é notável que o desenvolvimento desse projeto pode trazer benefícios, como a sincronização automática das praças que serão conectadas a uma rede intranet a partir do protocolo NTP, otimizando o tempo de profissionais que destinam parte de seu tempo ao trabalho manual de inserir a contagem regressiva.
-* **Escopo:**
-  * **MVP:** 
-  * **Entregas:** [Liste as principais entregas do projeto]
-  * **Objetivos Quantificáveis:** [Defina métricas de sucesso]
-  * **Critérios de Aceitação:** [Defina os critérios para considerar o projeto concluído]
-  * **Prototipação:** [Link para o protótipo no Quant-UX]
+* **Detalhes do Projeto:**
+  
+| Tópico                  | Descrição                                                                 |
+|-------------------------|---------------------------------------------------------------------------|
+| **Escopo**              | Desenvolvimento de um sistema de múltiplos acessos e sincronização de relógios utilizando NTP, com cronômetros regressivos para gestão de tempo em uma Rede de Comunicação Parceira. |
+| **Melhor jogador**      | Luis Fernando - Desenvolvedor Sistema back-end, Nathalia Eduarda de Liz - Desenvolvedor Sistema Front-end, Isabele Stachuk - Desenvolvedor Sistema back-end - BD |
+| **Entregas**            | 1. Documentação do processo atual (as-is) <br> 2. Projeto do processo futuro (to-be) <br> 3. Sistema de conexão via NTP <br> 4. Interface web interativa <br> 5. Sistema de múltiplos acessos configurado |
+| **Objetivos Quantificáveis** | 1. Redução de 50% no tempo dedicado ao processo manual de sincronização <br> 2. Aumento de 30% na eficiência da gestão de tempo dos apresentadores <br> 3. Sincronização de relógios com precisão de ±1 segundo |
+| **Critérios de Aceitação** | 1. Sistema funcionando sem erros críticos <br> 2. Interface web intuitiva e responsiva <br> 3. Sincronização automática de relógios entre todas as praças <br> 4. Redução comprovada no tempo de trabalho manual dos profissionais |
 
 ## 3. Matriz de Riscos
 
