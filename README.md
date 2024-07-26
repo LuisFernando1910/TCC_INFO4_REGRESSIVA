@@ -65,9 +65,22 @@ Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usu�
 ## 5. Conclusão
 O desenvolvimento de um sistema de múltiplos acessos e sincronização de relógios utilizando NTP representa um avanço significativo para a Rede de Comunicação Parceira. Este projeto visa substituir o processo manual atual, que é suscetível a erros humanos e sobrecarrega os profissionais, por uma solução automatizada e eficiente. A implementação de cronômetros regressivos e a sincronização automática dos dispositivos não apenas otimizará o tempo dos profissionais, mas também garantirá a consistência e a precisão necessárias para a execução ordenada dos eventos. Com uma interface web intuitiva e um sistema robusto de back-end, a empresa poderá melhorar a gestão de tempo e a coordenação entre suas praças, resultando em uma operação mais fluida e confiável.
 
-* **Recursos:** [Liste as tecnologias, ferramentas e linguagens utilizadas]
-* **Resultados Esperados:** [Descreva os resultados que se espera alcançar com o projeto]
-* **Monitoramento:** [Explique como o projeto será monitorado e acompanhado]
+* **Recursos Utilizados**
+
+| Recurso                | Descrição                                                                 |
+|------------------------|---------------------------------------------------------------------------|
+| **Servidor Apache 2.4**| Servidor web que hospeda a aplicação, gerencia requisições HTTP e serve os arquivos do site. |
+| **Banco de Dados SQLite** | Banco de dados leve e autônomo utilizado para armazenar dados da aplicação de forma eficiente. |
+| **Back-end PHP**       | Linguagem de programação utilizada para desenvolver a lógica do servidor, manipulação de dados e integração com o banco de dados. |
+| **Front-end JS, HTML e CSS** | Tecnologias utilizadas para criar a interface do usuário, tornando-a interativa e responsiva. |
+
+
+
+* **Resultados Esperados:**
+    A partir desse projeto, espera-se compreender e documentar o processo atual (as-is) como forma de base para desenvolver o processo futuro (to-be), ambos utilizando os conceitos e notações do Business Process Model and Notation (BPMN). Ademais, o projeto pretende criar e desenvolver um sistema de conexão via NTP - que será responsável pela obtenção do stratum -, juntamente a uma interface web, a qual terá o objetivo de interagir com o usuário e sua infraestrutura, além de gerenciar a entrada deste. Por fim, será implementado ao projeto a possibilidade de múltiplos acessos, viabilizando o acesso de diversas entidades e a modificação de seus dados, simultaneamente.
+  
+Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que é atualmente manual, sujeito a falhas humanas e consequentemente otimizando o trabalho de profissionais que destinam parte de seu tempo a este serviço. Em paralelo, o projeto propõe trazer mais segurança a usuários que estão dispostos a utilizarem um sistema de sincronização
+
 
 ## Documentação
 
