@@ -7,7 +7,7 @@
 * **Equipe:**
   * Luis Fernando - Desenvolvedor Sistema back-end
   * Nathalia Eduarda de Liz - Desenvolvedor Sistema Front-end
-  * Luis Fernando - Desenvolvedor Sistema back-end - BD
+  * Isabele Stachuk - Desenvolvedor Sistema back-end - BD
 * **Data de Criação:** 20//07/2024
 
 ## 2. Introdução
@@ -46,9 +46,24 @@ Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usu�
 ## 4. Organização do Projeto
 
 * **Cronograma:** https://github.com/users/LuisFernando1910/projects/13
-* **Equipe:** 
+# **Equipe:**
+  - **Luis Fernando - Desenvolvedor Sistema back-end**:
+  - Responsável pela implementação da lógica do servidor e integração com o banco de dados.
+  - Desenvolver APIs para comunicação entre o front-end e o back-end.
+  - Garantir a segurança e a eficiência do sistema, incluindo autenticação e autorização.
+
+- **Nathalia Eduarda de Liz - Desenvolvedor Sistema Front-end**:
+  - Criar e manter a interface do usuário, garantindo uma experiência intuitiva e responsiva.
+  - Implementar funcionalidades interativas usando tecnologias como HTML, CSS e JavaScript.
+  - Colaborar com o time de design para garantir que a interface atenda aos requisitos visuais e funcionais.
+
+- **Isabele Stachuk - Desenvolvedor Sistema back-end - BD**:
+  - Projetar e gerenciar o banco de dados, garantindo a integridade e a eficiência dos dados.
+  - Implementar consultas e procedimentos armazenados para suportar as funcionalidades do sistema.
+  - Realizar backups e otimizações regulares para garantir a disponibilidade e a performance do banco de dados.
 
 ## 5. Conclusão
+O desenvolvimento de um sistema de múltiplos acessos e sincronização de relógios utilizando NTP representa um avanço significativo para a Rede de Comunicação Parceira. Este projeto visa substituir o processo manual atual, que é suscetível a erros humanos e sobrecarrega os profissionais, por uma solução automatizada e eficiente. A implementação de cronômetros regressivos e a sincronização automática dos dispositivos não apenas otimizará o tempo dos profissionais, mas também garantirá a consistência e a precisão necessárias para a execução ordenada dos eventos. Com uma interface web intuitiva e um sistema robusto de back-end, a empresa poderá melhorar a gestão de tempo e a coordenação entre suas praças, resultando em uma operação mais fluida e confiável.
 
 * **Recursos:** [Liste as tecnologias, ferramentas e linguagens utilizadas]
 * **Resultados Esperados:** [Descreva os resultados que se espera alcançar com o projeto]
