@@ -1,5 +1,4 @@
-#ConnectServer
-
+## ConnectServer
 ## 1. Identificação
 
 * **Identidade Visual:** ![LOGO CONNECT SERVER](https://github.com/LuisFernando1910/TCC_INFO4_REGRESSIVA/blob/main/Connect.png)
@@ -37,7 +36,7 @@ Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usu�
 
 | ID  | Risco                                                                 | Probabilidade | Impacto | Mitigação                                                                                           |
 |-----|-----------------------------------------------------------------------|---------------|---------|-----------------------------------------------------------------------------------------------------|
-| 1   | Consumo excessivo de memória                                          | Alta          | Alto    | Implementar monitoramento e otimização de recursos.                                                |
+| 1   | Consumo excessivo de memória                                          | Alta          | Alto    | Implementar monitoramento e otimização de recursos.                                                 |
 | 2   | Falha na sincronização de relógios                                    | Média         | Alto    | Utilizar NTP com servidores de stratum confiáveis e redundância.                                    |
 | 3   | Sobrecarga de largura de banda de rede                                | Média         | Médio   | Implementar balanceamento de carga e otimização de tráfego de rede.                                 |
 | 4   | Erros humanos na configuração manual                                  | Alta          | Alto    | Automatizar o processo de configuração e sincronização.                                             |
