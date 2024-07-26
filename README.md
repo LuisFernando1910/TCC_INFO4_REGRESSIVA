@@ -47,7 +47,7 @@ Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usu�
 
 * **Cronograma:** https://github.com/users/LuisFernando1910/projects/13
 # **Equipe:**
-  - **Luis Fernando - Desenvolvedor Sistema back-end**:
+- **Luis Fernando - Desenvolvedor Sistema back-end**:
   - Responsável pela implementação da lógica do servidor e integração com o banco de dados.
   - Desenvolver APIs para comunicação entre o front-end e o back-end.
   - Garantir a segurança e a eficiência do sistema, incluindo autenticação e autorização.
