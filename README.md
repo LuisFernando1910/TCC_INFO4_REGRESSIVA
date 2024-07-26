@@ -11,15 +11,20 @@
 * **Data de Criação:** 20//07/2024
 
 ## 2. Introdução
-Atualmente, o serviço de múltiplos acessos na área da informática se mostra como um grande contratempo se não for feito de forma adequada, dificultando que vários usuários acessem recursos computacionais simultaneamente. Isso pode causar problemas como o consumo excessivo de memória, armazenamento e largura de banda de rede. Esses desafios são exacerbados em sistemas distribuídos, que são conjuntos de computadores independentes que funcionam como um único sistema para os usuários finais, e acaba se tornando um ponto crítico quando se trata da sincronização de relógios, pois várias máquinas devem estar coordenadas simultaneamente, do contrário, ocorrerão conflitos e contratempos na execução de eventos estritamente ordenados. Esse tipo de dificuldade é especialmente relevante quando o sincronismo de eventos é essencial para a consistência da regra de negócio, que não deve se sobrecarregar, e em paralelo, deve executar os comandos solicitados ordenadamente, sejam eles vindos da mesma fonte ou não. O uso de sistema de múltiplos usuários síncronos se aplica a várias áreas, como a tecnologia, vendas, finanças e até mesmo o entretenimento e pode ser resolvido de algumas maneiras, dentre elas um sistema de contagem regressiva, muito usado atualmente em empresas de mídia de difusão, por exemplo. 
-
-Para uma empresa sincronizar todos os seus relógios hoje em dia, existem algumas técnicas e tecnologias que podem ser empregadas para garantir que todos os dispositivos estejam ajustados corretamente. Dentre elas, se destaca o uso de NTP (Network Time Protocol), que é um protocolo de rede utilizado para sincronizar relógios de computadores conectados via redes de comunicação. O NTP utiliza uma hierarquia de níveis chamada de "estratos" (stratum) para organizar os servidores provedores de tempo. Existem algumas variantes de stratum, os stratum 0 são dispositivos de referência de tempo, como relógios atômicos, receptores de GPS, satélites ou outras fontes de tempo altamente precisas. O stratum 1 são servidores diretamente conectados a dispositivos stratum 0 e fornecem o tempo aos servidores de stratum 2, além disso, são de referência na rede. Os stratum 2 fornecem o tempo para os servidores de stratum 3, e assim até os stratum 15, com cada nível subsequente introduzindo um pequeno atraso adicional.
-
-A partir da conexão entre servidores NTP internos, ou externos, corretamente configurados com fontes de tempo confiáveis, os dispositivos conectados na  rede podem sincronizar seus horários sempre que necessário. No entanto, em alguns contextos, a configuração e a obtenção desses dados ainda é realizada de maneira manual. Esse fato pode ser observado em uma rede de difusão televisiva, necessidade na qual é baseado o projeto. Ela possui um sistema de sincronização de relógio no qual o horário é obtido a partir de uma fonte de tempo confiável, para que  então o responsável técnico na Rede de Comunicação Parceira, com  sede em  Curitiba, recolha-o  e o configure  manualmente na máquina principal. Esse processo se repete em todas as praças (compreendidas como as regiões do Paraná e as cidades que disponibilizam telejornais diariamente), fazendo com que estas não sejam conectadas e sincronizadas umas às outras. Esse processo, apesar de eficaz em execução, possui algumas  desvantagens, tais como a sobrecarga dos profissionais que precisam dedicar seu tempo a um processo manual, vulnerável a erros humanos. Portanto, este projeto visa desenvolver um sistema de múltiplos acessos que favorece a conexão entre as praças e sincroniza os dados inseridos, substituindo o atual processo manual, burocrático e suscetível a erros.      
-
-* **Objetivo:** Desenvolver um site intuitivo e funcional que auxilie na gestão de tempo da produção e dos apresentadores de uma Rede de Comunicação Parceira, por meio da utilização de cronômetros regressivos. O projeto também visa sincronizar o serviço de múltiplos acessos através do portal web, permitindo que diversas entidades acessem e modifiquem simultaneamente seus conteúdos, auxiliando na resolução de problemas de sobrecarga do sistema atual e concorrência de acessos.
+Atualmente, o serviço de múltiplos acessos na área da informática se mostra como um grande contratempo se não for feito de forma adequada, dificultando que vários usuários acessem recursos computacionais simultaneamente. Isso pode causar problemas como o consumo excessivo de memória, armazenamento e largura de banda de rede. Esses desafios são exacerbados em sistemas distribuídos, que são conjuntos de computadores independentes que funcionam como um único sistema para os usuários finais, e acaba se tornando um ponto crítico quando se trata da sincronização de relógios, pois várias máquinas devem estar coordenadas simultaneamente, do contrário, ocorrerão conflitos e contratempos na execução de eventos estritamente ordenados.
+## Objetivos
+- **Objetivo geral**: Desenvolver um site intuitivo e funcional que auxilie na gestão de tempo da produção e dos apresentadores de uma Rede de Comunicação Parceira, por meio da utilização de cronômetros regressivos.
+- **Objetivos específicos**:
+  - Compreender e documentar o processo atual (as-is);
+  - Projetar o processo futuro (to-be) auxiliado pelo sistema a ser desenvolvido;
+  - Desenvolver um sistema de conexão via NTP e obtenção de um stratum comum;
+  - Criar uma interface web responsável pela interação com o usuário e sua infraestrutura;
+  - Configurar um sistema de múltiplos acessos.
+    
+## Justificativa
+Apesar de já existir um sistema de tentativa de sincronismo com múltiplos usuários e que seja notável que o processo atual seja funcional e em execução, não é de conhecimento desse projeto compreender os motivos pelos quais a primeira proposta feita para resolver o problema da aplicação de concomitância foi estruturada desta maneira manual, porém é notável que o desenvolvimento desse projeto pode trazer benefícios, como a sincronização automática das praças que serão conectadas a uma rede intranet a partir do protocolo NTP, otimizando o tempo de profissionais que destinam parte de seu tempo ao trabalho manual de inserir a contagem regressiva.
 * **Escopo:**
-  * **MVP:** [Descreva o produto mínimo viável]
+  * **MVP:** 
   * **Entregas:** [Liste as principais entregas do projeto]
   * **Objetivos Quantificáveis:** [Defina métricas de sucesso]
   * **Critérios de Aceitação:** [Defina os critérios para considerar o projeto concluído]
@@ -27,16 +32,21 @@ A partir da conexão entre servidores NTP internos, ou externos, corretamente co
 
 ## 3. Matriz de Riscos
 
-| Risco | Impacto | Probabilidade | Mitigação |
-|---|---|---|---|
-| [Risco 1] | [Alto/Médio/Baixo] | [Alto/Médio/Baixo] | [Ações para mitigar] |
-| ... | ... | ... | ... |
+| ID  | Risco                                                                 | Probabilidade | Impacto | Mitigação                                                                                           |
+|-----|-----------------------------------------------------------------------|---------------|---------|-----------------------------------------------------------------------------------------------------|
+| 1   | Consumo excessivo de memória                                          | Alta          | Alto    | Implementar monitoramento e otimização de recursos.                                                |
+| 2   | Falha na sincronização de relógios                                    | Média         | Alto    | Utilizar NTP com servidores de stratum confiáveis e redundância.                                    |
+| 3   | Sobrecarga de largura de banda de rede                                | Média         | Médio   | Implementar balanceamento de carga e otimização de tráfego de rede.                                 |
+| 4   | Erros humanos na configuração manual                                  | Alta          | Alto    | Automatizar o processo de configuração e sincronização.                                             |
+| 5   | Conflitos na execução de eventos estritamente ordenados               | Baixa         | Alto    | Implementar mecanismos de controle de concorrência e ordenação de eventos.                          |
+| 6   | Vulnerabilidades de segurança devido à múltiplos acessos simultâneos  | Média         | Alto    | Implementar autenticação robusta e controle de acesso.                                              |
+| 7   | Falha na obtenção de tempo de fontes confiáveis                       | Baixa         | Médio   | Configurar múltiplas fontes de tempo e implementar verificações de integridade.                     |
+| 8   | Sobrecarga dos profissionais devido ao processo manual                | Alta          | Alto    | Desenvolver um sistema automatizado para reduzir a carga de trabalho manual.                        |
 
 ## 4. Organização do Projeto
 
-* **Cronograma:** [Inserir um diagrama de Gantt ou um cronograma textual]
-* **Equipe:** [Descreva a organização da equipe e as responsabilidades de cada membro]
-* **Trello/Jira:** [Link para o board do projeto]
+* **Cronograma:** https://github.com/users/LuisFernando1910/projects/13
+* **Equipe:** 
 
 ## 5. Conclusão
 
