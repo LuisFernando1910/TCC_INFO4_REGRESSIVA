@@ -2,7 +2,7 @@
 
 ## 1. Identificação
 
-* **Identidade Visual:** ! (\\TCC_INFO4_REGRESSIVA\Connect Logo.png)
+* **Identidade Visual:** ![LOGO CONNECT SERVER](https://github.com/LuisFernando1910/TCC_INFO4_REGRESSIVA/blob/main/Connect%20Logo.png)
 * **Redes Sociais:** https://chat.whatsapp.com/J1cMsovMOAN3G7mV3ULvx6
 * **Equipe:**
   * Luis Fernando - Desenvolvedor Sistema back-end
