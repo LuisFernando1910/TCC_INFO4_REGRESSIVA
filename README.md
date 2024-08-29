@@ -92,7 +92,7 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
   * **Atividades:** ![Texto do link](Diagrama_de_atividade.png)
   * **Sequência:** [Link]
   * **Classes:** [Link]
-  * **Entidade-Relacionamento:** [Link]
+  * **Entidade-Relacionamento:** ![Texto do link](DER_Connect.pdf)
 
 ## Como Contribuir
 
