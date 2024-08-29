@@ -86,10 +86,10 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
 
 ## Documentação
 
-* **Requisitos:** ![Texto do link](Requisitos.pdf)
-* **Casos de Uso:** ![Texto do link](Use_case_diagram.png)
+* **Requisitos:** ![Requisitos](Requisitos.pdf)
+* **Casos de Uso:** ![Casos de uso](Use_case_diagram.png)
 * **Diagramas:**
-  * **Atividades:** ![Texto do link](Diagrama_de_atividade.png)
+  * **Atividades:** ![Diagrama de atividades](Diagrama_de_atividade.png)
   * **Sequência:** [Link]
   * **Classes:** [Link]
   * **Entidade-Relacionamento:** ![DER](DER_Connect.pdf)
