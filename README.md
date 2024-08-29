@@ -86,13 +86,13 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
 
 ## Documentação
 
-* **Requisitos:** [Link para o documento de requisitos]
+* **Requisitos:** ![Requisitos](TCC.docx.pdf)
 * **Casos de Uso:** ![Texto do link](Use_case_diagram.png)
 * **Diagramas:**
   * **Atividades:** ![Texto do link](Diagrama_de_atividade.png)
   * **Sequência:** [Link]
   * **Classes:** [Link]
-  * **Entidade-Relacionamento:** ![Texto do link](DER_Connect.pdf)
+  * **Entidade-Relacionamento:** ![DER](DER_Connect.pdf)
 
 ## Como Contribuir
 
