@@ -86,7 +86,7 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
 
 ## Documentação
 
-* **Requisitos:** ![Requisitos](TCC.docx.pdf)
+* **Requisitos:** ![Texto do link](Requisitos.pdf)
 * **Casos de Uso:** ![Texto do link](Use_case_diagram.png)
 * **Diagramas:**
   * **Atividades:** ![Texto do link](Diagrama_de_atividade.png)
