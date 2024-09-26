@@ -87,7 +87,7 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
 ## Documentação
 
 * **Requisitos:** ![Requisitos](Requisitos.pdf)
-* **Casos de Uso:** ![Casos de uso](Use_case_diagram.png)
+* **Casos de Uso:** ![Casos de uso](Use_case_diagram2.png)
 * **Diagramas:**
   * **Atividades:** ![Diagrama de atividades](Diagrama_de_atividade.png)
   * **Especificações:** [Especificações](Especificação_de_Casos_de_Uso.docx.pdf)
