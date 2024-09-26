@@ -90,6 +90,7 @@ Com isso, a ferramenta a ser desenvolvida visa a automação de um processo que 
 * **Casos de Uso:** ![Casos de uso](Use_case_diagram.png)
 * **Diagramas:**
   * **Atividades:** ![Diagrama de atividades](Diagrama_de_atividade.png)
+  * **Especificações:** [Especificações](Especificação_de_Casos_de_Uso.docx.pdf)
   * **Sequência:** [Link]
   * **Classes:** [Link]
   * **Entidade-Relacionamento:** ![DER](DER_Connect.pdf)
